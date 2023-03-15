@@ -1,0 +1,103 @@
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.container{
+  max-width: 1140px!important;
+  width: 100%;
+}
+body {
+  background-color: #F7F7F7!important;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.all-prof {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 60px;
+  color: #666666;
+}
+.trans-service {
+  font-weight: 700;
+  color: #003366;
+}
+.all-prof-para {
+  max-width: 790px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #666666;
+  margin: auto;
+}
+.ts-one {
+  height: 201px;
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ts-one:hover {
+  background-color: #003366;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.ts-one:hover .hover-white {
+  color: white;
+}
+.ts-one:hover .hover-show {
+  display: block;
+}
+.ts-one:hover .hover-hide {
+  display: none;
+}
+.hover-show {
+  display: none;
+}
+.ts-one h2 {
+  padding-bottom: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #003366;
+}
+.ts-one p {
+  line-height: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666666;
+  opacity: 0.7;
+  letter-spacing: 0;
+}
+.w-1170 {
+  /* max-width: 1140px; */
+  width: 100%;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .all-prof {
+    line-height: normal;
+    font-size: 22px;
+  }
+  .all-prof-para {
+    font-size: 15px;
+  }
+  .ts-one h2 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,41 @@
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+body {
+  background-color: #F7F7F7!important;
+}
+.t-company {
+  font-weight: 700;
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 48px;
+  color: #003366;
+}
+.care {
+  font-weight: 300;
+}
+.t-company-para {
+  max-width: 700px;
+  width: 100%;
+  color: #666666;
+  font-size: 1em;
+  line-height: 28px;
+  border-left: 1px solid #003366;
+  padding-left: 20px;
+}
+@media (max-width:768px) {
+  .t-company{
+    line-height: normal;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .t-company-para{
+    font-size: 15px;
+  }
+}

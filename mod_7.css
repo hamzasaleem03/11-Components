@@ -1,0 +1,66 @@
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.container{
+  max-width: 1140px!important;
+  width: 100%;
+}
+body {
+  background-color: #F7F7F7!important;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.all-prof-mod-7 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 60px;
+  color: #666666;
+}
+.trans-service-mod-7 {
+  font-weight: 700;
+  color: #003366;
+}
+.all-prof-para-mod-7 {
+  max-width: 790px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #666666;
+  margin: auto;
+}
+.request-para-mod-7{
+  font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #003366;
+}
+.folks{
+  width: 100%;
+}
+.folks img{
+  width: 100%;
+}
+@media (max-width:768px) {
+  .all-prof-mod-7 {
+    font-size: 22px;
+    line-height: normal;
+  }
+  .all-prof-para-mod-7 {
+    font-size: 15px;
+  }
+  .request-para-mod-7{
+    font-weight: bold;
+      font-size: 14px;
+  }
+}
